@@ -1,8 +1,7 @@
 {
   "name": "crypto-converter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Single Page Application to calculate quotes for crypto currencies pairs",
-  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sergey-erkin/crypto-converter.git"
@@ -18,16 +17,15 @@
     "url": "https://github.com/sergey-erkin/crypto-converter/issues"
   },
   "homepage": "https://github.com/sergey-erkin/crypto-converter#readme",
-  "devDependencies": {
-    "webpack": "4.16.x",
-    "webpack-command": "0.4.x"
-  },
+  "private": true,
   "dependencies": {
+    "react": "16.4.x",
+    "react-dom": "16.4.x",
+    "react-scripts": "1.1.x"
   },
   "scripts": {
-    "npm install": "npm install",
-    "npm cache clean": "npm cache clean",
-    "build dev": "webpack --mode development",
-    "build prod": "webpack --mode production"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "npm run eject"
   }
 }
