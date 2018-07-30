@@ -1,4 +1,6 @@
 .idea/workspace.xml
+package-lock.json
 /node_modules
-/dist
-/npm-debug.log
+/build
+.env.*.local
+npm-debug.log*
